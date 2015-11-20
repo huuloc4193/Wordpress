@@ -1,4 +1,5 @@
 // Source: https://gist.github.com/luetkemj/2023628
+// Xem hướng dẫn WP_Query toàn tập: http://goo.gl/kRpzTz
 <?php
 $args = array( 
   
