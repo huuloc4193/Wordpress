@@ -102,7 +102,7 @@ $args = array(
     //http://codex.wordpress.org/Class_Reference/WP_Query#Pagination_Parameters
     'posts_per_page' => 10,                 //(int) - Số lượng bài viết cần lấy ra để hiển thị trên mỗi trang. Nếu muốn hiển thị toàn bộ thì đặt giá trị là -1
     'posts_per_archive_page' => 10,         //(int) - Số lượng bài viết cần lấy ra hiển thị trên mỗi trang. Nhưng chỉ sử dụng cho các trang lưu trữ.
-    'nopaging' => false,                    //(bool) - Nếu muốn sử dụng phân trang thì đặt là true. Mặc định là false.
+    'nopaging' => false,                    //(bool) - Nếu muốn sử dụng phân trang thì đặt là false. True sẽ hiển thị tất cả post. Mặc định là false.
     'paged' => get_query_var('paged'),      //(int) - Số trang hiện tại.
                                             //NOTE: Sử dụng get_query_var('page') nếu bạn cần sử dụng nó ở một Custom Page Template
     										// http://codex.wordpress.org/Function_Reference/next_posts_link#Usage_when_querying_the_loop_with_WP_Query
