@@ -1,5 +1,5 @@
 // Source: https://gist.github.com/luetkemj/2023628
-// Xem hướng dẫn WP_Query toàn tập: http://goo.gl/kRpzTz
+// Xem hướng dẫn WP_Query toàn tập: http://sh.st/KZTJO
 <?php
 $args = array( 
   
